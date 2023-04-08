@@ -1,4 +1,4 @@
-def main():
+def main(a):
     """
     Return a string consisting only of uppercase letters.
     Args:
@@ -6,4 +6,7 @@ def main():
     Returns:
         str: return answer.
     """
-    return 
+    
+   
+    return str(a).upper()
+print(main('abcd'))
